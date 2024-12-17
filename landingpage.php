@@ -19,7 +19,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
     <header>
-        <h1>Welcome to Hotel Bahagia</h1>
+        <h1>Welcome to Hotel Bahagia, Tuan <?php echo $_SESSION['username']; ?></h1>
         <nav>
             <ul>
                 <li><a href="landingpage.php">Home</a></li>
