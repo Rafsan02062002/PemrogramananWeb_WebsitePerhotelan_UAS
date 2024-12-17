@@ -3,7 +3,7 @@ session_start();
 
 // Jika pengguna sudah login, redirect ke halaman dashboard
 if (isset($_SESSION['username'])) {
-    header("Location: dashboard.php");
+    header("Location: landingpage.php");
     exit();
 }
 
@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($username === $valid_username && $password === $valid_password) {
         // Set session untuk menandakan user sudah login
         $_SESSION['username'] = $username;
-        header("Location: dashboard.php"); // Redirect ke halaman dashboard
+        header("Location: landingpage.php"); // Redirect ke halaman dashboard
         exit();
     } else {
         $error = "Tolong masukkan, username dan password yang benar!";
