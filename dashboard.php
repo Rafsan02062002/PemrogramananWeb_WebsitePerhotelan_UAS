@@ -41,6 +41,12 @@ if (!isset($_SESSION['username'])) {
             <p>Gourmet Dining Experiences</p>
             <p>State-of-the-art Fitness Center</p>
             <p>Luxurious Pool, Bar and Lounge</p>
+
+	<div style="display: flex; align-items: center; margin-top: 20px;">			
+		<img src="call.png" alt="Call Center" width="50" height="50" style="margin-right: 15px;"><p "font-size: 18px; color: #000; font-weight: bold;">Silahkan hubungi kami di: <br>
+		<span style="font-size: 20px; color: #007BFF;" class="phone-number">+62-812-3456-7890</span>
+		</p>
+	</div>
     </section>
 
     <footer>
