@@ -32,7 +32,7 @@ if (!isset($_SESSION['username'])) {
     </header>
 
     <section>
-        <h2>Welcome to Hotel Bahagia, Tuan <?php echo $_SESSION['username']; ?></h2>
+        <h2>Welcome to Hotel Bahagia</h2>
         <p>Terima kasih telah memilih Hotel Bahagia. Di sini Anda dapat mengelola pemesanan, melihat penawaran eksklusif, dan menjelajahi fasilitas premium kami. Kami harap Anda menikmati masa menginap dan layanan terbaik kami!</p>
         <img src="Dashboard.jpg" alt="Dashboard Image" style="width:100%; height:auto;">
         
